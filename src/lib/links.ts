@@ -12,8 +12,6 @@ export const profile = {
 };
 
 export const links: LinkItem[] = [
-  { id: "link-1", label: "링크 1", url: "#" },
-  { id: "link-2", label: "링크 2", url: "#" },
-  { id: "link-3", label: "링크 3", url: "#" },
-  { id: "link-4", label: "링크 4", url: "#" },
+  { id: "naver-blog", label: "네이버블로그", url: "https://blog.naver.com/kyuhub" },
+  { id: "threads", label: "쓰레드", url: "https://www.threads.com/@bbodae_k" },
 ];
