@@ -7,8 +7,8 @@ type ProfileProps = {
 
 export default function Profile({ name, bio, initial, photoUrl }: ProfileProps) {
   return (
-    <div className="flex flex-col items-center gap-2 text-center">
-      <div className="flex h-24 w-24 items-center justify-center overflow-hidden rounded-full bg-gradient-to-br from-sky-400 to-sky-600 text-2xl font-bold text-white shadow-lg shadow-sky-500/30 sm:h-28 sm:w-28">
+    <div className="flex flex-col items-center gap-3 text-center">
+      <div className="flex h-28 w-28 items-center justify-center overflow-hidden rounded-full bg-gradient-to-br from-orange-300 to-amber-500 text-2xl font-bold text-white shadow-[0_12px_28px_-8px_rgba(194,120,60,0.5)] ring-4 ring-white/70 sm:h-32 sm:w-32">
         {photoUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={photoUrl} alt={name} className="h-full w-full object-cover" />
@@ -16,8 +16,8 @@ export default function Profile({ name, bio, initial, photoUrl }: ProfileProps) 
           initial
         )}
       </div>
-      <h1 className="text-xl font-bold text-slate-800">{name}</h1>
-      <p className="text-sm leading-relaxed text-slate-600">{bio}</p>
+      <h1 className="text-xl font-bold text-stone-800">{name}</h1>
+      <p className="text-sm leading-relaxed text-stone-500">{bio}</p>
     </div>
   );
 }

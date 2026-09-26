@@ -9,7 +9,7 @@ export const profile = {
   name: "이개발",
   bio: "Claude로 바이브코딩 수익화 도전",
   initial: "개발",
-  photoUrl: undefined as string | undefined,
+  photoUrl: "https://placehold.co/150x150/orange/white" as string | undefined,
 };
 
 export const links: LinkItem[] = [
